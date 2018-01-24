@@ -7,20 +7,6 @@
     "points": 400
   },
   {
-    "question": "Explain the difference between synchronous and asynchronous functions.",
-    "categories": [
-      "Async"
-    ],
-    "points": 400
-  },
-  {
-    "question": "What is event loop?",
-    "categories": [
-      "Event Loop"
-    ],
-    "points": 400
-  },
-  {
     "question": "What are the primitive data types in JavaScript?",
     "categories": [
       "Data Types"
@@ -40,38 +26,6 @@
       "Data Types"
     ],
     "points": 200
-  },
-  {
-    "question": "What does the `this` keyword refer to in JavaScript?",
-    "answer": "1. The first value passed to call() or apply() 2. The value that was bind()ed to the function 3. The calling object 4. The global scope",
-    "categories": [
-      "This"
-    ],
-    "points": 400
-  },
-  {
-    "question": "How does inheritance work in JavaScript?",
-    "answer": "JavaScript has prototypal inheritance. Rather than a blueprint, objects are linked to other object instances via prototypes.",
-    "categories": [
-      "Prototypes"
-    ],
-    "points": 600
-  },
-  {
-    "question": "What are some tenets of functional programming?",
-    "answer": "1. Functional purity (no side-effects, output derived only from input)  2. Simple functions  3. First-class functions (functions as variables)  4. Higher-order functions (functions that return functions)",
-    "categories": [
-      "1st Class Functions"
-    ],
-    "points": 600
-  },
-  {
-    "question": "What is async in JavaScript?",
-    "answer": "When a function does not immediately return a value. The rest of the program continues executing, requiring special handling and \"callback functions\" for when function calls complete.",
-    "categories": [
-      "Async"
-    ],
-    "points": 400
   },
   {
     "question": "What creates scope in Javascript?",
@@ -104,28 +58,5 @@
       "Data Types"
     ],
     "points": 600
-  },
-  {
-    "question": "Explain how prototypal inheritance works.",
-    "categories": [
-      "Prototypes"
-    ],
-    "points": 600
-  },
-  {
-    "question": "What is a closure, and how/why would you use one?",
-    "answer": "A closure is a function that maintains a reference to it's outer scope. These are useful in high-order functions.",
-    "categories": [
-      "Closure",
-      "Scope"
-    ],
-    "points": 400
-  },
-  {
-    "question": "Explain \"hoisting\".",
-    "categories": [
-      "Hoisting"
-    ],
-    "points": 400
   }
 ]

@@ -1,12 +1,5 @@
 [
   {
-    "question": "Why is it, in general, a good idea to leave the global scope of a website as-is and never touch it?",
-    "categories": [
-      "Scope"
-    ],
-    "points": 400
-  },
-  {
     "question": "Explain the difference between synchronous and asynchronous functions.",
     "categories": [
       "Async"
@@ -17,35 +10,6 @@
     "question": "What is event loop?",
     "categories": [
       "Event Loop"
-    ],
-    "points": 400
-  },
-  {
-    "question": "What are the primitive data types in JavaScript?",
-    "categories": [
-      "Data Types"
-    ],
-    "points": 200
-  },
-  {
-    "question": "What are the reference data types in JavaScript?",
-    "categories": [
-      "Data Types"
-    ],
-    "points": 200
-  },
-  {
-    "question": "What's the difference between `null` and `undefined`?",
-    "categories": [
-      "Data Types"
-    ],
-    "points": 200
-  },
-  {
-    "question": "What does the `this` keyword refer to in JavaScript?",
-    "answer": "1. The first value passed to call() or apply() 2. The value that was bind()ed to the function 3. The calling object 4. The global scope",
-    "categories": [
-      "This"
     ],
     "points": 400
   },
@@ -74,58 +38,10 @@
     "points": 400
   },
   {
-    "question": "What creates scope in Javascript?",
-    "answer": "There's global scope and function scope in ES5. In ES2015 there's also Block scope.",
-    "categories": [
-      "Scope"
-    ],
-    "points": 200
-  },
-  {
-    "question": "Name 2 or more ways to define a global variable in Javascript",
-    "answer": "Leave off the `var` or assign it to the `window`",
-    "categories": [
-      "Scope"
-    ],
-    "points": 200
-  },
-  {
-    "question": "What's the difference between `==` and `===` in JS?",
-    "answer": "Type Coercion -- `==` doesn't care about type (i.e. type coercion), so `\"2\" == 2` will evaluate to `true`. `===` does care about type, so `\"2\" === 2` will evaluate to `false`.",
-    "categories": [
-      "Coercion"
-    ],
-    "points": 400
-  },
-  {
-    "question": "What's the difference between Primitive and Reference types in Javascript?",
-    "answer": "A primitive type has a fixed amount of memory that it takes up, where as a reference type does not. Examples of primitive types are boolean values or integers, where as examples of ref types would be arrays. ref types like arrays are made up of references to their values, hence the name",
-    "categories": [
-      "Data Types"
-    ],
-    "points": 600
-  },
-  {
     "question": "Explain how prototypal inheritance works.",
     "categories": [
       "Prototypes"
     ],
     "points": 600
-  },
-  {
-    "question": "What is a closure, and how/why would you use one?",
-    "answer": "A closure is a function that maintains a reference to it's outer scope. These are useful in high-order functions.",
-    "categories": [
-      "Closure",
-      "Scope"
-    ],
-    "points": 400
-  },
-  {
-    "question": "Explain \"hoisting\".",
-    "categories": [
-      "Hoisting"
-    ],
-    "points": 400
   }
 ]
