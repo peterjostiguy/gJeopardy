@@ -4,7 +4,7 @@
   "description": "",
   "main": "src/app.js",
   "scripts": {
-    "start": "node dist.js",
+    "start": "webpack -p --config ./webpack.config.js node dist.js",
     "local": "webpack-dev-server",
     "watch": "webpack --watch",
     "heroku-postbuild": "webpack -p --config ./webpack.config.js --progress"
